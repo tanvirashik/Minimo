@@ -1,0 +1,273 @@
+/*font start*/
+@font-face{
+    font-family: PlayfairDisplay-Black;
+    src=url(../fonts/playfair-display/PlayfairDisplay-Black.otf);
+}
+@font-face{
+    font-family: PlayfairDisplay-Bold;
+    src=url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+@font-face{
+    font-family: PlayfairDisplay-Italic;
+    src=url(../fonts/playfair-display/PlayfairDisplay-Italic.otf);
+}
+@font-face{
+    font-family: PlayfairDisplay-Regular;
+    src=url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+}
+@font-face{
+    font-family: Ubuntu-L;
+    src=url(../fonts/playfair-display/Ubuntu-L.ttf);
+}
+@font-face{
+    font-family: Inconsolata;
+    src=url(../fonts/playfair-display/Inconsolata.otf);
+}
+/*font start*/
+/* common css start */
+body{
+    margin:0;
+    padding:0;
+    font-family: PlayfairDisplay-Regular;
+    font-weight:400;
+    font-size:14px;
+    color:#626262;
+}
+/* common css end */
+/* header start */
+header{
+    padding:40px 0;
+}
+.container{
+    width:90%;
+    margin:0 auto;
+    overflow:hidden;
+}
+.logo{
+    width:8%;
+    float:left;
+}
+.logo img{
+    width:100%;
+    margin-top:7px;
+}
+.menu{
+    width:50%;
+    float:right;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    float:left;
+}
+.menu ul li a{
+    margin-right:100px;
+    padding:3px 0;
+    display:inline-block;
+    font-family: playfairDisplay-Regular;
+    font-weight:400;
+    font-size:14px;
+    color:#626262;
+    text-decoration:none;
+    text-transform: uppercase;
+    transition: .3s;
+    border-bottom:1px solid transparent;
+
+}
+.menu ul li:hover a{
+    border-bottom:1px solid #626262;
+}
+.menu ul li:last-child a{
+    margin-right:0;
+}
+/* header end */
+/* banner start */
+.b_banner img{
+    width:100%;
+}
+/* banner end */
+/* getaway start */
+.getaway{
+
+}
+.container2{
+    width:80%;
+    margin:0 auto;
+}
+.g_content{
+
+}
+.cm_light{
+    margin-top:20px;
+    margin-bottom:0;
+    font-family:Ubuntu-L;
+    font-weight:300;
+    font-size:14px;
+    color:#B4AD9E;
+    text-transform: uppercase;
+
+}
+.mt_h{
+    margin-top:70px;
+}
+.mt_m{
+    margin-top:35px;
+}
+.cm_title{
+    margin-top:25px;
+    font-size:30px;
+    color:#626262;
+}
+.cm_text{
+    margin-top:30px;
+    margin-bottom:0;
+    line-height:22px;
+    font-size:16px;
+}
+/* getaway end */
+/* blog start */
+.blog{
+
+}
+.blog_content{
+    overflow:hidden;
+}
+.singel{
+    margin-top:130px;
+    width:47%;
+    float:left;
+}
+.singel:nth-child(even){
+    margin-left:6%;
+}
+.singel_img{
+
+}
+.singel_img img{
+    width:100%;
+}
+.pr{
+    padding-right:10px;
+}
+/* blog end */
+/* news start */
+.news{
+    background-color: #F0F0F0;
+    margin-top:130px;
+    padding:70px 0;
+}
+.singup{
+    text-align:center;
+}
+.n_text{
+    font-size:30px;
+    color:#333333;
+    margin-top:0;
+    margin-bottom:75px;
+
+}
+.s_form{
+    width:400px;
+    margin:0 auto;
+    position:relative;
+}
+.s_form input{
+    width:358px;
+    height:40px;
+    padding-left:5px;
+    padding-right:40px;
+    font-family: PlayfairDisplay-Regular;
+    font-weight:400;
+    font-size:14px;
+    color:#626262;
+    background-color: transparent;
+    border:none;
+    border-bottom:1px solid #333333;
+}
+.s_form input:focus{
+    outline:0;
+}
+.s_form button{
+    top:0;
+    right:0;
+    margin-top:15px;
+    border:none;
+    cursor:pointer;
+    position:absolute;
+    background-color: transparent;
+}
+.s_form buttom:focus{
+    outline:0;
+}
+/* news end */
+/* blog2 start */
+.blog2{
+
+}
+/* load more start */
+.load{
+    text-align:center;
+    margin-top:150px;
+    margin-bottom:150px;
+}
+.btn{
+    background-color: transparent;
+    width:12%;
+    min-height:50px;
+    font-size:20px;
+    color:#626262;
+    border:1px solid #626262;
+    cursor: pointer;
+}
+/* load more start */
+/* blog2 end */
+/* footer start */
+footer{
+    background-color: #F0F0F0;
+    padding:30px 0;
+}
+.privacy{
+    width:50%;
+    float:left;
+}
+.privacy ul{
+    list-style-type: none;
+}
+.privacy ul li{
+    float:left;
+}
+.privacy ul li a{
+    margin-right:60px;
+    margin-left:-38px;
+    text-decoration:none;
+    display:inline-block;
+    font-family: PlayfairDisplay-Regular;
+    font-weight:400;
+    font-size:14px;
+    color:#000000;
+
+}
+.follow{
+    width:12%;
+    float:right;
+}
+.follow ul{
+    list-style-type: none;
+}
+.follow ul li{
+    float:left;
+    margin-right:10px;
+}
+.follow ul li a{
+    text-decoration:none;
+    display:inline-block;
+    font-family: PlayfairDisplay-Regular;
+    font-weight:400;
+    font-size:14px;
+    color:#000000;
+}
+.follow ul li:last-child{
+    margin-right:0;
+}
+/* footer end */
